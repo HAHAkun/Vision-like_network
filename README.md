@@ -7,9 +7,14 @@ The code of paper "A vision-like network for low-light image enhancement"
 4. torchvision 0.2.1
 5. cuda 10.0
 
-## Test
-python lowlight_test.py
-You can put the image you want to test into data/test_ Data/your, the enhanced image will be saved in data/result_ gradient/yours.
+### Test: 
+
+```
+python lowlight_test.py 
+```
+You can put the image you want to test into "data/test_ Data/yours", the enhanced image will be saved in "data/result_ gradient/yours".
 
 ## Train
-python lowlight_train.py
+```
+python lowlight_train.py 
+```
